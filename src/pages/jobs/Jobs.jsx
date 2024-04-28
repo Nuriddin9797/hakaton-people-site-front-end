@@ -1,4 +1,5 @@
 // import JobsIcons from "./Icons";
+import JobsIcons from './Icons';
 import './Jobs.scss'
 
 const Jobs = () => {
@@ -7,8 +8,8 @@ const Jobs = () => {
       <nav className="jobs__navigation">
         <span className="jobs__navigation-caption">Channels</span>
         <ul>
-          <li>
-             Designers
+          <li className='--active'>
+             <JobsIcons.whiteboard /> Designers
           </li>
           <li>
              Coders
