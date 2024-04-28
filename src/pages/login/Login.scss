@@ -1,0 +1,68 @@
+.login {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e1e5ea;
+  border-radius: 12px;
+  background-color: white;
+  form {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    .input {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      input {
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #e1e5ea;
+      }
+    }
+    label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 21px;
+      letter-spacing: 0.02em;
+      color: #181d25;
+      user-select: none;
+      input {
+        width: 15px;
+        height: 15px;
+      }
+    }
+    button {
+      padding: 10px 0;
+      border-radius: 8px;
+      background-color: #3348ff;
+      border: none;
+      color: white;
+      transition: 0.1s;
+      cursor: pointer;
+      &:active {
+        opacity: 0.7;
+      }
+    }
+    p {
+      color: #606e80;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 21px;
+      letter-spacing: 0.02em;
+      a {
+        color: #5264fe;
+      }
+    }
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    letter-spacing: 0.02em;
+    color: #181d25;
+  }
+}
