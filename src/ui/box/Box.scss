@@ -1,0 +1,54 @@
+.box {
+  width: 22%;
+  border: 1px solid #e4e5e7;
+}
+
+.box__top {
+  img {
+    width: 100%;
+  }
+}
+
+.box__main {
+  .main__name {
+    padding: 17px 12px;
+    display: flex;
+    gap: 7px;
+    img {
+      width: 24px;
+      object-fit: cover;
+    }
+    h5 {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 21px;
+      color: #181d25;
+    }
+  }
+  .main__skills {
+    padding: 0 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #606e80;
+  }
+  .main__bottom {
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .bottom__price {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      font-size: 13px;
+      line-height: 21px;
+      letter-spacing: 0.5px;
+      color: #74767e;
+      span {
+        color: #404145;
+        font-size: 16px;
+      }
+    }
+  }
+}

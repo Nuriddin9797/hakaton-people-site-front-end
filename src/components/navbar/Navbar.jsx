@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom"
 import "./Navbar.scss"
+import { NavLink } from "react-router-dom"
 import { useState } from "react"
 import { IoChevronForward } from "react-icons/io5"
 const Navbar = () => {

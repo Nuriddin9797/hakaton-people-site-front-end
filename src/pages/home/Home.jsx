@@ -19,32 +19,32 @@ const Home = () => {
       </div>
       <main>
         <div className="boxes">
-          <div className="box">
+          <div className="stats-box">
             <h4>Total income</h4>
             <p>$7,434.14</p>
             <span>up from last month</span>
           </div>
-          <div className="box">
+          <div className="stats-box">
             <h4>Trading</h4>
             <p>$7,434.14</p>
             <span>up from last month</span>
           </div>
-          <div className="box">
+          <div className="stats-box">
             <h4>Design</h4>
             <p>$7,434.14</p>
             <span>up from last month</span>
           </div>
-          <div className="box">
+          <div className="stats-box">
             <h4>Programming</h4>
             <p>$7,434.14</p>
             <span>up from last month</span>
           </div>
-          <div className="box">
+          <div className="stats-box">
             <h4>Design</h4>
             <p>$7,434.14</p>
             <span>up from last month</span>
           </div>
-          <div className="box">
+          <div className="stats-box">
             <h4>Programming</h4>
             <p>$7,434.14</p>
             <span>up from last month</span>
