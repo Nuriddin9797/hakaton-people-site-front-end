@@ -61,7 +61,7 @@ const Profile = () => {
             </p>
           </div>
         </div>
-        <div class="box2">
+        <div className="box2">
           <ul>
             <li>
               <h4>49</h4>
