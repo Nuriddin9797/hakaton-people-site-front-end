@@ -5,11 +5,11 @@ import { AiFillInstagram, AiFillTwitterCircle } from "react-icons/ai"
 
 const Profile = () => {
   return (
-    <div class="profile">
+    <div className="profile">
       <TopBar title={"Profile"} />
 
       <div className="user">
-        <div class="box1">
+        <div className="box1">
           <img
             src="https://img.freepik.com/free-photo/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1714176000&semt=sph"
             alt="profil rasmi"
@@ -86,7 +86,7 @@ const Profile = () => {
             <button>Certificate</button>
           </div>
         </div>
-        <div class="box3">
+        <div className="box3">
           <h2>About me</h2>
           <p>
             I am a passionate and dedicated programmer with a strong background
@@ -97,7 +97,7 @@ const Profile = () => {
             stay up-to-date with the latest technologies in the industry.{" "}
           </p>
         </div>
-        <div class="box4">
+        <div className="box4">
           <div className="inputs">
             <input
               id="password"
