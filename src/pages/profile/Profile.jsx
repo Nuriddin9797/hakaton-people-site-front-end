@@ -2,15 +2,15 @@ import "./Profile.scss"
 
 const Profile = () => {
   return (
-      <div class="profile">
-        <div class="box1">
+      <div className="profile">
+        <div className="box1">
           <img src="user.svg" alt="profil rasmi" />
           <p>Ergashev Nuriddin</p>
           <p>programmer</p>
           <p>Uzbekistan</p>
           <p>Open for work</p>
         </div>
-        <div class="box2">
+        <div className="box2">
           <ul>
             <li>
               <h2>100</h2>
@@ -41,7 +41,7 @@ const Profile = () => {
             <button>Certificate</button>
           </ul>
         </div>
-        <div class="box3">
+        <div className="box3">
           <p>About me</p>
           <p>
             I am a passionate and dedicated programmer with a strong background
@@ -52,7 +52,7 @@ const Profile = () => {
             stay up-to-date with the latest technologies in the industry.{" "}
           </p>
         </div>
-        <div class="box4">
+        <div className="box4">
           <input type="number" placeholder="phone" />
           <input type="email" placeholder="E-mail" />
           <ul>

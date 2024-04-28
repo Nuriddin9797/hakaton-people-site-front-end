@@ -8,6 +8,7 @@ import {
   RegisterTwo,
 } from "./pages"
 import { Navbar } from "./components"
+import Jobs from "./pages/jobs/Jobs"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/register-two" element={<RegisterTwo />} />
           <Route path="/register-three" element={<RegisterThree />} />
+          <Route path="/jobs" element={<Jobs />} />
           <Route path="/profile" element={<Profile />} />
         </Routes>
       </div>
