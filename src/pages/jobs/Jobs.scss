@@ -1,17 +1,17 @@
 .jobs {
-
-    &__navigation {
-        &-caption {
-            color: #929FB1;
-            font-size: 14px;
-            font-weight: normal;
-        }
-        background-color: #F6F7F9;
-        border: 1px solid #E8E8E8;
-        width: 176px;
-        height: 100vh;
-        padding: 8px;
-        color: #404B5A;
-        font-weight: normal;
+  display: flex;
+  &__navigation {
+    &-caption {
+      color: #929fb1;
+      font-size: 14px;
+      font-weight: normal;
     }
+    background-color: #f6f7f9;
+    border: 1px solid #e8e8e8;
+    width: 176px;
+    height: 100vh;
+    padding: 8px;
+    color: #404b5a;
+    font-weight: normal;
+  }
 }

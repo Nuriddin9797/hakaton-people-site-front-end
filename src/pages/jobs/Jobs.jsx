@@ -1,5 +1,7 @@
 // import JobsIcons from "./Icons";
-import './Jobs.scss'
+
+import { Box } from "../../ui"
+import "./Jobs.scss"
 
 const Jobs = () => {
   return (
@@ -7,31 +9,22 @@ const Jobs = () => {
       <nav className="jobs__navigation">
         <span className="jobs__navigation-caption">Channels</span>
         <ul>
-          <li>
-             Designers
-          </li>
-          <li>
-             Coders
-          </li>
-          <li>
-             AI
-          </li>
-          <li>
-             Trading
-          </li>
-          <li>
-             Dropshipping
-          </li>
-          <li>
-             Bloger
-          </li>
-          <li>
-             Mobilography
-          </li>
+          <li>Designers</li>
+          <li>Coders</li>
+          <li>AI</li>
+          <li>Trading</li>
+          <li>Dropshipping</li>
+          <li>Bloger</li>
+          <li>Mobilography</li>
         </ul>
       </nav>
+      <main>
+        <div className="jobs__vacancies">
+          <Box />
+        </div>
+      </main>
     </section>
-  );
-};
+  )
+}
 
-export default Jobs;
+export default Jobs
