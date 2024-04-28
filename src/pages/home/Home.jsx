@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom"
 const Home = () => {
   return (
     <div className="home">
-      <TopBar />
+      <TopBar title={"Dashboard"} />
       <div className="tabs">
         <NavLink className="tab" to={"/"}>
           Sales info
